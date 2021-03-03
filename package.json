@@ -1,0 +1,20 @@
+{
+  "name": "webcache",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon ./index.js"
+  },
+  "author": "ymx",
+  "license": "MIT",
+  "devDependencies": {
+    "koa": "^2.6.2",
+    "koa-conditional-get": "^2.0.0",
+    "koa-etag": "^3.0.0",
+    "koa-static": "^5.0.0"
+  },
+  "dependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
